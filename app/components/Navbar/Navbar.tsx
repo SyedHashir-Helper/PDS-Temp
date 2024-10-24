@@ -6,6 +6,7 @@ import Drawer from "./Drawer";
 import Drawerdata from "./Drawerdata";
 import Signdialog from "./Signdialog";
 import Registerdialog from "./Registerdialog";
+import Image from 'next/image';
 
 interface NavigationItem {
     name: string;
@@ -62,32 +63,36 @@ const Navbar = () => {
                                     src={'/assets/logo/Final logo 1.png'}
                                     alt="dsign-logo"
                                 /> */}
-                                    <img
-                                        className="h-auto p-3 max-h-[calc(100%+15px)] w-auto max-w-full object-contain drop-shadow-lg"
-                                        src={'/assets/logo/Final logo 1.png'}
-                                        alt="dsign-logo"
-                                    />
+                                    <Image
+                                    className="h-auto p-3 max-h-[calc(100%+15px)] w-auto max-w-full object-contain drop-shadow-lg"
+                                    src={'/assets/logo/Final logo 1.png'}
+                                    alt="dsign-logo"
+                                    width={100}
+                                    height={100}
+                                />
                                 {/* <img
                                     className="h-auto p-3 max-h-[calc(100%+15px)] w-auto max-w-full object-contain drop-shadow-lg"
                                     src={'/assets/logo/Final logo 2.png'}
                                     alt="dsign-logo"
-                                />
-                                <img
+                                /> */}
+                                {/* <Image
                                     className="h-auto p-3 max-h-[calc(100%+15px)] w-auto max-w-full object-contain drop-shadow-lg"
                                     src={'/assets/logo/Final logo 3.png'}
                                     alt="dsign-logo"
-                                />
-                                <img
+                                    width={100}
+                                    height={100}
+                                /> */}
+                                {/* <img
                                     className="h-auto p-3 max-h-[calc(100%+15px)] w-auto max-w-full object-contain drop-shadow-lg"
                                     src={'/assets/logo/Final logo 4.png'}
                                     alt="dsign-logo"
-                                />
-                                <img
+                                /> */}
+                                {/* <img
                                     className="h-auto p-3 max-h-[calc(100%+15px)] w-auto max-w-full object-contain drop-shadow-lg"
                                     src={'/assets/logo/Final logo 5.png'}
                                     alt="dsign-logo"
-                                />
-                                <img
+                                /> */}
+                                {/* <img
                                     className="h-auto p-3 max-h-[calc(100%+15px)] w-auto max-w-full object-contain drop-shadow-lg"
                                     src={'/assets/logo/Final logo 6.png'}
                                     alt="dsign-logo"
