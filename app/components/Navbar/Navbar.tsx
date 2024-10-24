@@ -58,18 +58,18 @@ const Navbar = () => {
                             {/* LOGO */}
 
                             <div className="flex gap-3 items-center justify-center h-20 overflow-hidden">
-                                {/* <img
-                                    className="h-auto p-3 max-h-full w-auto max-w-full object-contain"
+                                <img
+                                    className="h-auto p-3 max-h-[calc(100%+15px)] w-auto max-w-full object-contain"
                                     src={'/assets/logo/Final logo 1.png'}
                                     alt="dsign-logo"
-                                /> */}
-                                    <Image
+                                />
+                                    {/* <Image
                                     className="h-auto p-3 max-h-[calc(100%+15px)] w-auto max-w-full object-contain drop-shadow-lg"
                                     src={'/assets/logo/Final logo 1.png'}
                                     alt="dsign-logo"
                                     width={100}
                                     height={100}
-                                />
+                                /> */}
                                 {/* <img
                                     className="h-auto p-3 max-h-[calc(100%+15px)] w-auto max-w-full object-contain drop-shadow-lg"
                                     src={'/assets/logo/Final logo 2.png'}
